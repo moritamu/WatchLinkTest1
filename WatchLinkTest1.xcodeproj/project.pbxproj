@@ -11,6 +11,7 @@
 		46183F462B818BE4007AA1EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46183F452B818BE4007AA1EB /* ContentView.swift */; };
 		46183F482B818BE5007AA1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46183F472B818BE5007AA1EB /* Assets.xcassets */; };
 		46183F4B2B818BE5007AA1EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46183F4A2B818BE5007AA1EB /* Preview Assets.xcassets */; };
+		46183F522B818CB8007AA1EB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46183F512B818CB8007AA1EB /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		46183F452B818BE4007AA1EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46183F472B818BE5007AA1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46183F4A2B818BE5007AA1EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46183F512B818CB8007AA1EB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				46183F432B818BE4007AA1EB /* WatchLinkTest1App.swift */,
 				46183F452B818BE4007AA1EB /* ContentView.swift */,
+				46183F512B818CB8007AA1EB /* SecondView.swift */,
 				46183F472B818BE5007AA1EB /* Assets.xcassets */,
 				46183F492B818BE5007AA1EB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46183F522B818CB8007AA1EB /* SecondView.swift in Sources */,
 				46183F462B818BE4007AA1EB /* ContentView.swift in Sources */,
 				46183F442B818BE4007AA1EB /* WatchLinkTest1App.swift in Sources */,
 			);
