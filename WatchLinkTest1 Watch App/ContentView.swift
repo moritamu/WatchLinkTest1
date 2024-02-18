@@ -8,15 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var time: Int = 10
+    
     var body: some View {
         NavigationStack {
-            NavigationLink {
-                SecondView()
-            } label: {
-                Text("SecondViewへ")
+            VStack {
+                Text("秒数:　\(time)　秒")
+                NavigationLink {
+                    SecondView(time2: $time)
+                } label: {
+                    Text("時間の設定へ")
+                }
+                NavigationLink {
+                    SecondView(time2: $time)
+                } label: {
+                    Text("時間の設定へ")
+                }
             }
+            .navigationTitle("MainView")
+            .font(.title3)
        }
-        .padding()
+//        .padding()
     }
 }
 

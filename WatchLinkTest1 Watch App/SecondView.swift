@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct SecondView: View {
+    @Binding var time2: Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(time2) 秒です。")
+            TextField("Input Number", value: $time2, format: .number)
+            TextField("数値を入力してください", value: $time2, format: .number)
+        }
     }
 }
 
 #Preview {
-    SecondView()
+    SecondView(time2: .constant(3))
 }
